@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <header>
+            <nav>
+                <img src="assets/logo.png" alt="logo">
+                <ul>
+                    <li><a href="#">Rocketseat</a></li>
+                    <li><a href="#">Dsoluções</a></li>
+                    <li><label class="switch">
+                            <input type="checkbox" onchange="darkMode()">
+                            <span class="slider round"></span>
+                        </label></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <img src="assets/animaçao.svg" id="animacao" alt="landing amimated">
+            </section>
+            <section class="ladingForm">
+                <div class="textos">
+                    <h1>Cadastre-se!</h1>
+                    <h3>E entre para nosso time.</h3>
+                </div>
+                <fieldset>
+                    <legend>Cadastro</legend>
+                    <form action="" class="cadastro">
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="Nome" id="nome" placeholder="Nome" autocomplete="none">
+                        </div>
+                        <div>
+                            <label for="telefone">Telefone</label>
+                            <input type="text" name="telefone" id="telefone" placeholder="Telefone" autocomplete="none">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="Email" minlength="12" autocomplete="none">
+                        </div>
+                        <div>
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" id="senha" placeholder="Senha">
+                        </div>
+                        <div>
+                            <button type="submit" class="botaoform">Enviar</button>
+                        </div>
+                    </form>
+                </fieldset>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
