@@ -13,7 +13,6 @@
 }
 
 
-
 /* The switch - the box around the slider */
 .switch {
     position: relative;
@@ -70,6 +69,7 @@ input:checked+.slider:before {
 
 form div input {
     padding: 8px;
+    min-height: 2.7rem;
     border: none;
     border-radius: 3px;
 }
@@ -126,7 +126,7 @@ header nav img {
     width: 120px;
 }
 
-header nav{
+header nav {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -140,11 +140,11 @@ form div {
     flex-direction: column;
 }
 
-nav ul li{
+nav ul li {
     display: none;
 }
 
-nav ul li:last-child{
+nav ul li:last-child {
     display: block;
 }
 
@@ -164,15 +164,15 @@ header nav ul li a {
 }
 
 
-fieldset{
+fieldset {
     padding: 10px;
 }
 
-.textos{
+.textos {
     font-size: x-large;
 }
 
-main{
+main {
     padding: 20px;
 }
 
@@ -203,11 +203,11 @@ main{
         width: 120px;
     }
 
-   
-    nav ul li{
+
+    nav ul li {
         display: block;
     }
-    
+
 
     main {
         display: flex;
@@ -232,23 +232,6 @@ main{
         padding: 20px;
         border-radius: 8px;
     }
-
-   
-
-
-
-
-.d-flex{
-    display: flex;
-}
-
-items-center{
-    align-items: center;
-}
-
-.justify-between{
-    justify-content: space-between;
-}
 
 
 
